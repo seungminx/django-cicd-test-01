@@ -118,10 +118,10 @@ DATABASES = {
         "default": {
         "ENGINE": "django.db.backends.mysql",
         "NAME": db_dbname,
-        "USER": db_user,
-        "PASSWORD": db_password,
-        "HOST": db_endpoint,
-        "PORT": db_port,
+        "USER": "admin",
+       "PASSWORD": "admin123",
+        "HOST": "10.0.118.26",
+        "PORT": "3306"
         "TEST": {
           "NAME": "mytestdatabase", # 추가 
       },   
