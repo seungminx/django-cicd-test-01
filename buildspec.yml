@@ -37,5 +37,7 @@ phases:
       - echo "post_Build start"
       - pwd
       - ls
+      - cd ..
+      - ls
 # artifacts:
 #   files: '**/*'
