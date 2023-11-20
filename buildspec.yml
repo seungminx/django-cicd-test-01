@@ -37,7 +37,13 @@ phases:
       - echo "post_Build start"
       - pwd
       - ls
+      - rm -rf static/
+      - rm -rf venv/
       - cd ..
       - ls
-# artifacts:
-#   files: '**/*'
+      - tar -czvf django-ecommerce.tar.gz src/
+      - ls
+      
+artifacts:
+  files: 
+      - django-ecommerce.tar.gz
