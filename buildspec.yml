@@ -46,4 +46,4 @@ phases:
       
 artifacts:
   files: 
-      - django-ecommerce.tar.gz
+      - src/
