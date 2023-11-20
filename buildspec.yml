@@ -41,10 +41,10 @@ phases:
       - rm -rf venv/
       - cd ..
       - ls
-      - tar -czvf src/django-ecommerce.tar.gz src/
+      - tar -czvf django-ecommerce.tar.gz src/
       - ls
       
 artifacts:
   files: 
-    - ./django-ecommerce.tar.gz
+    - ../django-ecommerce.tar.gz
   discard-paths: yes
