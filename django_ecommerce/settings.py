@@ -121,7 +121,7 @@ DATABASES = {
         "USER": "admin",
        "PASSWORD": "admin123",
         "HOST": "10.0.118.26",
-        "PORT": "3306"
+        "PORT": "3306",
         "TEST": {
           "NAME": "mytestdatabase", # 추가 
       },   
