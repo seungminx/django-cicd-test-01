@@ -14,7 +14,7 @@ packaging==23.2
 Pillow==10.0.1
 pip==21.3.1
 protobuf==4.21.12
-PyMySQL==1.1.0
+PyMySQL==1.1.1
 python-dateutil==2.8.2
 pytz==2019.3
 s3transfer==0.7.0
